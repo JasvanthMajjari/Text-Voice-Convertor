@@ -14,6 +14,8 @@
   justify-content: center;
   flex-direction: column;
   color: #fff;
+  gap: 30px;
+  padding: 20px;
 }
 
 .main h1 {
@@ -38,7 +40,6 @@ textarea {
   padding: 20px;
   border-radius: 10px;
   resize: none;
-  margin-bottom: 30px;
 }
 
 textarea::placeholder {
@@ -46,14 +47,14 @@ textarea::placeholder {
   color: #ddd;
 }
 
-.row {
+.controls {
   width: 600px;
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-button {
+#button {
   background: #ff2963;
   color: #fff;
   font-size: 15px;
